@@ -1,0 +1,85 @@
+.App {
+  text-align: center;
+}
+ 
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+ 
+.App-header {
+  background-color: steelblue;
+  height: 70px;
+  padding: 20px;
+  color: white;
+}
+ 
+.App-intro {
+  font-size: large;
+}
+ 
+/* new css for movie component */
+* {
+  box-sizing: border-box;
+}
+ 
+.movies {
+  display: flex;
+  flex-wrap: wrap;
+}
+ 
+.App-header h2 {
+  margin: 0;
+}
+ 
+.add-movies {
+  text-align: center;
+}
+ 
+.add-movies button {
+  font-size: 16px;
+  padding: 8px;
+  margin: 1em 10px 1em 10px;
+}
+ 
+.movie {
+  padding: 5px 25px 10px 25px;
+  max-width: 25%;
+	border: 4px dotted steelblue;
+	border-radius: 10px;
+}
+
+/* movie form styles */
+ 
+.movie-form {
+  width: 300px;
+  margin: 0 auto;
+	border: 1px solid steelblue;
+	border-radius: 5px;
+}
+ 
+.movie-form input, .movie-form textarea {
+  width: 250px;
+  font-size:14px;
+  padding: 5px;
+  margin: 5px;
+}
+ 
+.movie-form button {
+  font-size: 16px;
+  padding: 4px;
+  margin: 10px 10px 30px 10px;
+}
+
+.sort-field {
+	width: wrap;
+	margin: 1em auto 1em auto;
+}
+
+.sort-field button {
+	font-size: 14px;
+	border: 2px solid white;
+	border-radius: 2px;
+	background-color: steelblue;
+	color: white;
+}
